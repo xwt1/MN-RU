@@ -1,4 +1,4 @@
-This repository is for MN-RU algorithm. All experiment has implemented in C++ on a PC with Intel Xeon CPU E5-2678 v3 @ 2.50GHz and 110GB memory, running Ubuntu 22.04.
+This repository is for Mint algorithm. All experiment has implemented in C++ on a PC with Intel Xeon CPU E5-2678 v3 @ 2.50GHz and 110GB memory, running Ubuntu 22.04.
 
 You could reproduce it with the following steps, the overall experiment may take days.
 
@@ -79,9 +79,4 @@ bash ./shell/runDrawFigure.sh
 After drawing the result figures, you can find them in the `./output` directory and its subdirectories.
 
 
-## MN-RU algorithm position
-* MN-RU α: ./external/hnswlib_method7/hnswlib/hnswalg.h
-* MN-RU β: ./external/hnswlib_method8/hnswlib/hnswalg.h
-* MN-RU γ: ./external/hnswlib_method9/hnswlib/hnswalg.h
-* MN-THN-RU: ./external/hnswlib_method10/hnswlib/hnswalg.h
 You could just see the core algorithm in function updatePoint and repairConnectionsForUpdate
